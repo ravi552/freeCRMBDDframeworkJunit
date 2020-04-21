@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="33.151136">
+<testcase classname="Free CRM Login Feature" name="free CRM Login test scenario" time="33.151136">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;Cogmento CRM[O]&gt; but was:&lt;Cogmento CRM[]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at stepDefinition.LoginStepDefinition.user_is_on_home_page(LoginStepDefinition.java:53)&#13;&#10;&#9;at ✽.Then user is on home page(Login.feature:9)&#13;&#10;"><![CDATA[Given user is already on Login page.........................................passed
+When title of Login page is Free CRM........................................passed
+Then user enters username and password......................................passed
+Then user clicks on Login button............................................passed
+Then user is on home page...................................................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<Cogmento CRM[O]> but was:<Cogmento CRM[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinition.LoginStepDefinition.user_is_on_home_page(LoginStepDefinition.java:53)
+	at ✽.Then user is on home page(Login.feature:9)
+]]></failure>
+</testcase>
+</testsuite>
