@@ -20,6 +20,8 @@ public class LoginStepDefinition {
 	public void user_is_already_on_Login_page() {
 		System.setProperty("webdriver.chrome.driver","F:/feecrmBDDFramework/Drivers/chromedriver.exe");
 		driver = new ChromeDriver();
+		
+		
 		driver.manage().window().maximize();
 		driver.get("https://ui.freecrm.com/");
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
